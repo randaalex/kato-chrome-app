@@ -1,24 +1,27 @@
 {
+   "name": "Kato for Desktop",
+   "manifest_version": 2,
+   "author": "Alexander Randa (randa.alex@gmail.com)",
+   "minimum_chrome_version": "23",
+   "offline_enabled": true,
+   "description": "Kato for Desktop (unofficial version)",
+   "version": "1.0.1",
+
+   "update_url": "https://clients2.google.com/service/update2/crx",
+
    "app": {
       "background": {
          "scripts": [ "main.js" ]
       }
    },
-   "description": "Kato for Desktop (unofficial version)",
    "icons": {
       "128": "assets/128.png",
       "16": "assets/16.png"
    },
-   "manifest_version": 2,
-   "minimum_chrome_version": "23",
-   "name": "Kato for Desktop",
-   "offline_enabled": true,
    "permissions": [
      "storage",
      "webview",
      "notifications",
      "https://app.kato.im/"
-   ],
-   "update_url": "https://clients2.google.com/service/update2/crx",
-   "version": "1.0.1"
+   ]
 }
